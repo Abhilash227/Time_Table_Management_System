@@ -101,7 +101,6 @@
          <option selected disabled>Select Teacher</option>';
                 while ($row = mysqli_fetch_assoc($q)) {
                     $mystring .= '<option value="' . $row['faculty_number'] . '">' . $row['name'] . '</option>';
-                    $mystring .= '<option value="' . $row['faculty_number'] . '">' . $row['name'] . '</option>';
                 }
 
                 echo $mystring;

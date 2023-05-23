@@ -118,7 +118,7 @@
 <div id="myModal" class="modal">
 
     <!-- Modal content -->
-    <div class="modal-content" style="margin-top: -60px">
+    <div class="modal-content" style="margin-top: -125px">
         <div class="modal-header">
             <span class="close">&times</span>
             <h2 id="popupHead">Add Teacher</h2>
@@ -147,7 +147,7 @@
                             <option selected disabled>Select</option>
                             <option value="Professor">Professor</option>
                             <option value="Assistant Professor">Assistant Professor</option>
-                            <option value="Associate Professor">Associate Professor</option>
+                            <option id="asc" value="Associate Professor">Associate Professor</option>
                             <option value="Guest Faculty">Guest Faculty</option>
                         </select>
                     </div>
@@ -163,7 +163,7 @@
                                placeholder="abc@xyz.com ...">
                     </div>
                     <div align="right">
-                        <input type="submit" class="btn btn-default" name="ADD" value="ADD">
+                        <input type="submit" id="btnnew" class="btn btn-default" name="ADD" value="ADD">
                     </div>
                 </form>
             </div>

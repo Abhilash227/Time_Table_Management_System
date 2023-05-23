@@ -28,7 +28,7 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
 <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
     <div class="container">
         <div align="center">
-            <h3 align="center">TIME TABLE MANAGEMENT SYSTEM</h3>
+            <h3 align="center" id="heading" >TIME TABLE MANAGEMENT SYSTEM</h3>
 	<h4 align="center">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h4>
         </div>
     </div>
@@ -118,7 +118,7 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
                                placeholder="Password ...">
                     </div>
                     <div align="right">
-                        <input type="submit" class="btn btn-default" name="LOGIN" value="LOGIN">
+                        <input type="submit" class="btn btn-default" id="login" name="LOGIN" value="LOGIN">
                     </div>
                 </form>
             </div>
@@ -131,7 +131,7 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
                     <input type="text" class="form-control" id="facultyno" name="FN" placeholder="Faculty No. ...">
                 </div>
                 <div align="right">
-                    <button type="submit" class="btn btn-default" name="LOGIN">LOGIN</button>
+                    <button type="submit" id="teacherloginbtn" class="btn btn-default" name="LOGIN">LOGIN</button>
                 </div>
             </form>
         </div>

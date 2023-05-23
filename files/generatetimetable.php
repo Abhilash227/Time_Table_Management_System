@@ -329,7 +329,6 @@ if (isset($_GET['success'])) {
                         echo "
                  <tr><td style=\"text-align:center\">$days[$i]</td>
                  <td style=\"text-align:center\">{$row['period1']}</td>
-                //  <td style=\"text-align:center\">{$row['period1']}</td>
                 <td style=\"text-align:center\">{$row['period2']}</td>
                 <td style=\"text-align:center\">{$row['period3']}</td>
                  <td style=\"text-align:center\">{$row['period4']}</td>
